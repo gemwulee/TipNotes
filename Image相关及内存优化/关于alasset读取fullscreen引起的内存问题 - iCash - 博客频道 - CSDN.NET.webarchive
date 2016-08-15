@@ -1,0 +1,146 @@
+bplist00�_WebMainResource�	
+_WebResourceFrameName^WebResourceURL_WebResourceData_WebResourceMIMEType_WebResourceTextEncodingNameP_file:///index.htmlOMJ<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title>关于alasset读取fullscreen引起的内存问题 - iCash - 博客频道 - CSDN.NET</title>
+  <meta name="Description" content="[ddm]ishit=0isset=1content1=O6rl6fZYDqxGUo/kURXPNfAPs0hQzTpM4t3oZgm1pdPccWGWpxcdwXzRHfTmFbUsDrudBDTsmUSHb8H4Eiw9cTkixKoRd5r5Yl56qU3nWp2qAQ==content2=O6rl6fZYDqxGUo/kURXPNfAPs0hQzWBMsN2zZg21udO">
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1404.47">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 30.0px; font: 20.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 14.0px 'PingFang SC'; color: #666666; -webkit-text-stroke: #666666; background-color: #ffffff; min-height: 20.0px}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 14.0px Arial; color: #666666; -webkit-text-stroke: #666666; min-height: 16.0px}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 26.0px; font: 14.0px Arial; color: #000000; -webkit-text-stroke: #000000}
+    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 26.0px; font: 14.0px 'PingFang SC'; color: #000000; -webkit-text-stroke: #000000}
+    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 26.0px; font: 14.0px 'PingFang SC'; color: #000000; -webkit-text-stroke: #000000; background-color: #ffffff; min-height: 20.0px}
+    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 11.0px; font: 9.0px Verdana; color: #c0c0c0; -webkit-text-stroke: #c0c0c0; background-color: #f8f8f8; min-height: 11.0px}
+    p.p15 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 26.0px; font: 14.0px 'Courier New'; color: #ca0000; -webkit-text-stroke: #ca0000; min-height: 16.0px}
+    p.p16 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 26.0px; font: 14.0px 'Courier New'; color: #ffffff; -webkit-text-stroke: #ffffff; min-height: 16.0px}
+    li.li8 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 18.0px; font: 12.0px 'Courier New'; color: #008200; -webkit-text-stroke: #008200; background-color: #ffffff}
+    li.li9 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 18.0px; font: 12.0px 'Courier New'; color: #000000; -webkit-text-stroke: #000000; background-color: #f8f8f8}
+    li.li10 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 18.0px; font: 12.0px 'Courier New'; color: #000000; background-color: #ffffff}
+    li.li11 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 18.0px; font: 12.0px 'Courier New'; color: #000000; -webkit-text-stroke: #000000; background-color: #ffffff}
+    li.li12 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 18.0px; font: 12.0px 'Courier New'; color: #000000; background-color: #f8f8f8}
+    li.li13 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 18.0px; font: 12.0px 'Courier New'; color: #008200; -webkit-text-stroke: #008200; background-color: #f8f8f8}
+    li.li14 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 18.0px; font: 12.0px 'Courier New'; color: #ff0000; -webkit-text-stroke: #ff0000; background-color: #f8f8f8}
+    span.s1 {font: 20.0px 'Songti SC'; font-kerning: none; background-color: #ffffff}
+    span.s2 {font: 20.0px Times; font-kerning: none}
+    span.s3 {font-kerning: none}
+    span.s4 {font-kerning: none; background-color: #ffffff}
+    span.s5 {font: 14.0px 'PingFang SC'; font-kerning: none; background-color: #ffffff}
+    span.s6 {font: 14.0px Arial; font-kerning: none; background-color: #ffffff}
+    span.s7 {-webkit-text-stroke: 0px #000000}
+    span.s8 {font: 12.0px 'PingFang SC'; font-kerning: none}
+    span.s9 {font-kerning: none; color: #000000; -webkit-text-stroke: 0px #000000}
+    span.s10 {font-kerning: none; color: #0000ff; -webkit-text-stroke: 0px #0000ff}
+    span.s11 {font-kerning: none; color: #dd0000; -webkit-text-stroke: 0px #dd0000}
+    span.s12 {font-kerning: none; -webkit-text-stroke: 0px #000000}
+    span.s13 {color: #000000; -webkit-text-stroke: 0px #000000}
+    span.s14 {font-kerning: none; color: #ff0000; -webkit-text-stroke: 0px #ff0000}
+    ol.ol1 {list-style-type: decimal}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1"><a href="http://blog.csdn.net/icash/article/details/50350322">关于<span class="s2">alasset</span><span class="s3">读取</span><span class="s2">fullscreen</span><span class="s3">引起的内存问题</span><span class="s2"><span class="Apple-converted-space"> </span></span></a></span></p>
+<p class="p2"><span class="s3"></span><br></p>
+<p class="p3"><span class="s3"></span><br></p>
+<p class="p4"><span class="s4">asset.defaultRepresentation.fullScreenImage // </span><span class="s5">旋转过方向的图片</span></p>
+<p class="p4"><span class="s4">asset.defaultRepresentation.fullResolutionImage // </span><span class="s5">取原始图片</span></p>
+<p class="p5"><span class="s4">一般相册图片，就使用上面两种，但是，不建议使用原始图片，因为这个图片很大。</span></p>
+<p class="p5"><span class="s4">但是如果直接使用第一种，会出现很大的内存问题。释放</span><span class="s6">fullScreenImage</span><span class="s4">后，图片就只能用一次。如果不释放，内存就会增大。</span></p>
+<p class="p4"><span class="s5">【方案一】</span><span class="s4">FQ</span><span class="s5">在</span><span class="s4">http://stackoverflow.com/questions/11392268/defaultrepresentation-fullscreenimage-on-alasset-does-not-return-full-screen-ima </span><span class="s5">这个里面得到了答案。备注一下。后来发现这个找到的方法，内存及图片方向旋转都没有做处理。</span></p>
+<p class="p6"><span class="s3"></span><br></p>
+<p class="p4"><span class="s5">【方案二】在苹果官方</span><span class="s4"> https://developer.apple.com/library/ios/documentation/GraphicsImaging/Conceptual/ImageIOGuide/imageio_source/ikpg_source.html#//apple_ref/doc/uid/TP40005462-CH218-SW3 </span><span class="s5">找到更好的方法：</span></p>
+<p class="p7"><span class="s3"></span><br></p>
+<ol class="ol1">
+  <li class="li8"><span class="s7"></span><span class="s3">/// </span><span class="s8">第一种方法</span><span class="s9">  </span></li>
+  <li class="li9"><span class="s7"></span><span class="s3">+ (</span><span class="s10"><b>UIImage</b></span><span class="s3"> *)imageThumbnailFromAsset:(</span><span class="s10"><b>ALAssetRepresentation</b></span><span class="s3"> *)assetRepresentation</span><span class="s11"> maxPixelSize</span><span class="s3">:(NSUInteger)size  </span></li>
+  <li class="li10"><span class="s12">{  </span></li>
+  <li class="li9"><span class="s7"></span><span class="s3">    </span><span class="s10"><b>UIImage</b></span><span class="s3"> *result =</span><span class="s10"><b> nil</b></span><span class="s3">;  </span></li>
+  <li class="li11"><span class="s7"></span><span class="s3">    </span><span class="s10"><b>NSData</b></span><span class="s3"> *data =</span><span class="s10"><b> nil</b></span><span class="s3">;  </span></li>
+  <li class="li9"><span class="s7"></span><span class="s3">      </span></li>
+  <li class="li11"><span class="s7"></span><span class="s3">    </span><span class="s10"><b>uint8_t</b></span><span class="s3"> *buffer = (</span><span class="s10"><b>uint8_t</b></span><span class="s3"> *)malloc(</span><span class="s10"><b>sizeof</b></span><span class="s3">(uint8_t)*[assetRepresentation</span><span class="s11"> size</span><span class="s3">]);  </span></li>
+  <li class="li9"><span class="s7"></span><span class="s3">    </span><span class="s10"><b>if</b></span><span class="s3"> (buffer != </span><span class="s10"><b>NULL</b></span><span class="s3">) {  </span></li>
+  <li class="li11"><span class="s7"></span><span class="s3">        </span><span class="s10"><b>NSError</b></span><span class="s3"> *error =</span><span class="s10"><b> nil</b></span><span class="s3">;  </span></li>
+  <li class="li9"><span class="s7"></span><span class="s3">        NSUInteger bytesRead = [assetRepresentation</span><span class="s11"> getBytes</span><span class="s3">:buffer</span><span class="s11"> fromOffset</span><span class="s3">:0</span><span class="s11"> length</span><span class="s3">:[assetRepresentation</span><span class="s11"> size</span><span class="s3">]</span><span class="s11"> error</span><span class="s3">:&amp;error];  </span></li>
+  <li class="li11"><span class="s7"></span><span class="s3">        data = [NSData</span><span class="s11"> dataWithBytes</span><span class="s3">:buffer</span><span class="s11"> length</span><span class="s3">:bytesRead];  </span></li>
+  <li class="li9"><span class="s7"></span><span class="s3">        free(buffer);  </span></li>
+  <li class="li11"><span class="s7"></span><span class="s3">    }  </span></li>
+  <li class="li9"><span class="s7"></span><span class="s3">      </span></li>
+  <li class="li11"><span class="s7"></span><span class="s3">    </span><span class="s10"><b>if</b></span><span class="s3"> ([data</span><span class="s11"> length</span><span class="s3">])  </span></li>
+  <li class="li9"><span class="s7"></span><span class="s3">    {  </span></li>
+  <li class="li11"><span class="s7"></span><span class="s3">        CGImageRef myThumbnailImage = MyCreateThumbnailImageFromData(data, (</span><span class="s10"><b>int</b></span><span class="s3">)size);  </span></li>
+  <li class="li9"><span class="s7"></span><span class="s3">        </span><span class="s10"><b>if</b></span><span class="s3"> (myThumbnailImage) {  </span></li>
+  <li class="li11"><span class="s7"></span><span class="s3">            result = [UIImage</span><span class="s11"> imageWithCGImage</span><span class="s3">:myThumbnailImage];  </span></li>
+  <li class="li9"><span class="s7"></span><span class="s3">            CGImageRelease(myThumbnailImage);  </span></li>
+  <li class="li11"><span class="s7"></span><span class="s3">        }  </span></li>
+  <li class="li9"><span class="s7"></span><span class="s3">    }  </span></li>
+  <li class="li11"><span class="s7"></span><span class="s3">      </span></li>
+  <li class="li9"><span class="s7"></span><span class="s3">    </span><span class="s10"><b>return</b></span><span class="s3"> result;  </span></li>
+  <li class="li10"><span class="s12">}  </span></li>
+  <li class="li12"><span class="s12">  </span></li>
+  <li class="li11"><span class="s7"></span><span class="s3">CGImageRef MyCreateThumbnailImageFromData (</span><span class="s10"><b>NSData</b></span><span class="s3"> * data, </span><span class="s10"><b>int</b></span><span class="s3"> imageSize)  </span></li>
+  <li class="li12"><span class="s12">{  </span></li>
+  <li class="li11"><span class="s7"></span><span class="s3">    CGImageRef        myThumbnailImage = </span><span class="s10"><b>NULL</b></span><span class="s3">;  </span></li>
+  <li class="li9"><span class="s7"></span><span class="s3">    CGImageSourceRef  myImageSource;  </span></li>
+  <li class="li11"><span class="s7"></span><span class="s3">    CFDictionaryRef   myOptions = </span><span class="s10"><b>NULL</b></span><span class="s3">;  </span></li>
+  <li class="li9"><span class="s7"></span><span class="s3">    CFStringRef       myKeys[5];  </span></li>
+  <li class="li11"><span class="s7"></span><span class="s3">    CFTypeRef         myValues[5];  </span></li>
+  <li class="li9"><span class="s7"></span><span class="s3">    CFNumberRef       thumbnailSize;  </span></li>
+  <li class="li11"><span class="s7"></span><span class="s3">      </span></li>
+  <li class="li13"><span class="s13"></span><span class="s9">    </span><span class="s3">// Create an image source from NSData; no options.</span><span class="s9">  </span></li>
+  <li class="li11"><span class="s7"></span><span class="s3">    myImageSource = CGImageSourceCreateWithData((CFDataRef)data,  </span></li>
+  <li class="li9"><span class="s7"></span><span class="s3">                                                </span><span class="s10"><b>NULL</b></span><span class="s3">);  </span></li>
+  <li class="li8"><span class="s13"></span><span class="s9">    </span><span class="s3">// Make sure the image source exists before continuing.</span><span class="s9">  </span></li>
+  <li class="li9"><span class="s7"></span><span class="s3">    </span><span class="s10"><b>if</b></span><span class="s3"> (myImageSource == </span><span class="s10"><b>NULL</b></span><span class="s3">){  </span></li>
+  <li class="li11"><span class="s7"></span><span class="s3">        fprintf(stderr, </span><span class="s14">"Image source is NULL."</span><span class="s3">);  </span></li>
+  <li class="li9"><span class="s7"></span><span class="s3">        </span><span class="s10"><b>return</b></span><span class="s3">  </span><span class="s10"><b>NULL</b></span><span class="s3">;  </span></li>
+  <li class="li11"><span class="s7"></span><span class="s3">    }  </span></li>
+  <li class="li9"><span class="s7"></span><span class="s3">      </span></li>
+  <li class="li8"><span class="s13"></span><span class="s9">    </span><span class="s3">// Package the integer as a  CFNumber object. Using CFTypes allows you</span><span class="s9">  </span></li>
+  <li class="li13"><span class="s13"></span><span class="s9">    </span><span class="s3">// to more easily create the options dictionary later.</span><span class="s9">  </span></li>
+  <li class="li11"><span class="s7"></span><span class="s3">    thumbnailSize = CFNumberCreate(</span><span class="s10"><b>NULL</b></span><span class="s3">, kCFNumberIntType, &amp;imageSize);  </span></li>
+  <li class="li9"><span class="s7"></span><span class="s3">      </span></li>
+  <li class="li8"><span class="s13"></span><span class="s9">    </span><span class="s3">// Set up the thumbnail options.</span><span class="s9">  </span></li>
+  <li class="li9"><span class="s7"></span><span class="s3">    myKeys[0] = kCGImageSourceCreateThumbnailWithTransform;  </span></li>
+  <li class="li11"><span class="s7"></span><span class="s3">    myValues[0] = (CFTypeRef)kCFBooleanTrue;  </span></li>
+  <li class="li9"><span class="s7"></span><span class="s3">    myKeys[1] = kCGImageSourceCreateThumbnailFromImageIfAbsent;  </span></li>
+  <li class="li11"><span class="s7"></span><span class="s3">    myValues[1] = (CFTypeRef)kCFBooleanTrue;  </span></li>
+  <li class="li9"><span class="s7"></span><span class="s3">    myKeys[2] = kCGImageSourceThumbnailMaxPixelSize;  </span></li>
+  <li class="li11"><span class="s7"></span><span class="s3">    myValues[2] = (CFTypeRef)thumbnailSize;  </span></li>
+  <li class="li9"><span class="s7"></span><span class="s3">    myKeys[3] = kCGImageSourceShouldCache;  </span></li>
+  <li class="li11"><span class="s7"></span><span class="s3">    myValues[3] = (CFTypeRef)kCFBooleanFalse;  </span></li>
+  <li class="li9"><span class="s7"></span><span class="s3">    myKeys[4] = kCGImageSourceShouldCacheImmediately;  </span></li>
+  <li class="li11"><span class="s7"></span><span class="s3">    myValues[4] = (CFTypeRef)kCFBooleanFalse;  </span></li>
+  <li class="li9"><span class="s7"></span><span class="s3">      </span></li>
+  <li class="li11"><span class="s7"></span><span class="s3">    myOptions = CFDictionaryCreate(</span><span class="s10"><b>NULL</b></span><span class="s3">, (</span><span class="s10"><b>const</b></span><span class="s3"> </span><span class="s10"><b>voidvoid</b></span><span class="s3"> **) myKeys,  </span></li>
+  <li class="li9"><span class="s7"></span><span class="s3">                                   (</span><span class="s10"><b>const</b></span><span class="s3"> </span><span class="s10"><b>voidvoid</b></span><span class="s3"> **) myValues, 2,  </span></li>
+  <li class="li11"><span class="s7"></span><span class="s3">                                   &amp;kCFTypeDictionaryKeyCallBacks,  </span></li>
+  <li class="li9"><span class="s7"></span><span class="s3">                                   &amp; kCFTypeDictionaryValueCallBacks);  </span></li>
+  <li class="li11"><span class="s7"></span><span class="s3">      </span></li>
+  <li class="li13"><span class="s13"></span><span class="s9">    </span><span class="s3">// Create the thumbnail image using the specified options.</span><span class="s9">  </span></li>
+  <li class="li11"><span class="s7"></span><span class="s3">    myThumbnailImage = CGImageSourceCreateThumbnailAtIndex(myImageSource,  </span></li>
+  <li class="li9"><span class="s7"></span><span class="s3">                                                           0,  </span></li>
+  <li class="li11"><span class="s7"></span><span class="s3">                                                           myOptions);  </span></li>
+  <li class="li13"><span class="s13"></span><span class="s9">    </span><span class="s3">// Release the options dictionary and the image source</span><span class="s9">  </span></li>
+  <li class="li8"><span class="s13"></span><span class="s9">    </span><span class="s3">// when you no longer need them.</span><span class="s9">  </span></li>
+  <li class="li9"><span class="s7"></span><span class="s3">    CFRelease(thumbnailSize);  </span></li>
+  <li class="li11"><span class="s7"></span><span class="s3">    CFRelease(myOptions);  </span></li>
+  <li class="li9"><span class="s7"></span><span class="s3">    CFRelease(myImageSource);  </span></li>
+  <li class="li11"><span class="s7"></span><span class="s3">      </span></li>
+  <li class="li13"><span class="s13"></span><span class="s9">    </span><span class="s3">// Make sure the thumbnail image exists before continuing.</span><span class="s9">  </span></li>
+  <li class="li11"><span class="s7"></span><span class="s3">    </span><span class="s10"><b>if</b></span><span class="s3"> (myThumbnailImage == </span><span class="s10"><b>NULL</b></span><span class="s3">){  </span></li>
+  <li class="li14"><span class="s13"></span><span class="s9">        fprintf(stderr, </span><span class="s3">"Thumbnail image not created from image source."</span><span class="s9">);  </span></li>
+  <li class="li11"><span class="s7"></span><span class="s3">        </span><span class="s10"><b>return</b></span><span class="s3"> </span><span class="s10"><b>NULL</b></span><span class="s3">;  </span></li>
+  <li class="li9"><span class="s7"></span><span class="s3">    }  </span></li>
+  <li class="li11"><span class="s7"></span><span class="s3">      </span></li>
+  <li class="li9"><span class="s7"></span><span class="s3">    </span><span class="s10"><b>return</b></span><span class="s3"> myThumbnailImage;  </span></li>
+  <li class="li10"><span class="s12">}  </span></li>
+</ol>
+<p class="p15"><span class="s3"><a href="javascript:;"></a></span><br></p>
+<p class="p16"><span class="s3"></span><br></p>
+</body>
+</html>
+Ytext/htmlUutf-8    ( ? N ` v � � �M�N                           N
